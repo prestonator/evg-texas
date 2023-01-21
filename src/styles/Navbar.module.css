@@ -41,7 +41,6 @@
 
 .navItem a {
 	text-decoration: none;
-	color: #514d42;
 	font-size: 1.5rem;
 	letter-spacing: 2px;
 }
@@ -51,6 +50,14 @@
 	background-color: #514d42;
 	color: white;
 	font-size: 1.25rem;
+}
+
+.nonActive {
+	color: black;
+}
+
+.active {
+	color: #c5a241;
 }
 
 @media screen and (width > 1100px) {

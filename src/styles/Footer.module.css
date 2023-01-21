@@ -68,6 +68,7 @@
 				width: 100%;
 				text-align: center;
 				border-radius: 5px;
+                color: black;
 			}
 			> div:nth-child(2) {
 				display: flex;
@@ -87,6 +88,19 @@
 				width: 100%;
 				text-align: center;
 			}
+            input[type="submit"] {
+                background-color: #ffffff;
+                color: black;
+                padding: rfs(1rem) rfs(2rem);
+                font-size: rfs(1.5rem);
+                text-transform: uppercase;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover {
+                    background-color: #5b5b5b;
+                    color: white;
+                }
+            }
 		}
 	}
 }
