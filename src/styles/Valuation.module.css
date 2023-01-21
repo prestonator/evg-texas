@@ -1,0 +1,45 @@
+.sectionOne {
+    position: relative;
+    width: 100%;
+    height: rfs(30rem);
+    img {
+        object-fit: cover;
+    }
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        margin-bottom: rfs(1rem);
+    }
+    p {
+        margin-top: rfs(0.5rem);
+    }
+    hr {
+        width: rfs(15rem);
+        border-color: black;
+    }
+}
+
+.sectionThree {
+    display: flex;
+    justify-content: center;
+    .textBlurb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: rfs(25rem);
+        h4 {
+            font-size: rfs(1.5rem);
+        }
+        h4, p {
+            text-align: center;
+        }
+        .icon {
+            width: rfs(2rem);
+            height: rfs(2rem);
+        }
+    }
+}
