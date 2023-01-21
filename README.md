@@ -1,5 +1,3 @@
-"# evg-texas" 
-
 # EVG Texas
 
 This repository contains the frontend code for the website [EVG Texas](https://evg-texas.com/).
