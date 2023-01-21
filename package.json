@@ -1,0 +1,36 @@
+{
+  "name": "evgtexas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.10",
+    "@next/font": "13.1.4",
+    "axios": "^1.2.3",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.4",
+    "next": "13.1.4",
+    "nodemailer": "^6.9.0",
+    "postcss-media-minmax": "^5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.42.1",
+    "react-icons": "^4.7.1",
+    "react-toastify": "^9.1.1",
+    "rfs": "^9.0.6",
+    "swiper": "^8.4.6",
+    "swr": "^2.0.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,121 @@
+.sectionOne {
+	background-color: #514d42;
+	position: relative;
+	padding: rfs(15rem) 0 rfs(10rem);
+	.foreground {
+		.title {
+			color: white;
+			text-align: center;
+			font-size: rfs(5rem);
+		}
+	}
+	.background {
+		.title {
+			position: absolute;
+			color: transparent;
+			-webkit-text-stroke: 1px white;
+			font-size: rfs(10rem);
+			top: rfs(5rem);
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    gap: rfs(2.5rem);
+    margin-bottom: rfs(5rem);
+	.rowOne {
+		position: relative;
+		height: rfs(40rem);
+		width: rfs(80rem);
+        margin: auto;
+		img {
+			object-fit: cover;
+            border-width: rfs(3rem);
+            border-style: solid;
+            border-color: rgb(51 48 41 / 90%);
+            transform: translateY(-2rem);
+		}
+	}
+    .rowTwo {
+        hr {
+            border-color: #514d42;
+            background-color: #514d42;
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+    .rowThree {
+        h3 {
+            font-size: rfs(5rem);
+            text-align: center;
+        }
+    }
+}
+
+.sectionThree {
+    .rowOne {
+        background-color: #514d42;
+        padding: rfs(5rem) 0;
+        padding-left: rfs(5rem);
+        h3 {
+            font-size: rfs(7.5rem);
+            text-align: left;
+            -webkit-text-stroke: 1px white;
+            color: transparent;
+        }
+    }
+}
+
+.sectionFour {
+    position: relative;
+    .rowOne {
+        .colOne {
+            position: absolute;
+            z-index: 99;
+            height: rfs(45rem);
+            width: rfs(45rem);
+            right: 0;
+            bottom: 0;
+            img {
+                object-fit: contain;
+            }
+        }
+    }
+    .rowTwo {
+        .colOne {
+            position: relative;
+            height: rfs(30rem);
+            width: 100%;
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.sectionFive {
+    .rowOne {
+        padding: rfs(5rem);
+        p {
+            font-size: rfs(2rem);
+            padding-bottom: rfs(2rem);
+            color: #333333;
+        }
+    }
+}
+
+.sectionSix {
+	.rowOne {
+		position: relative;
+		height: rfs(30rem);
+		width: rfs(50rem);
+        margin: 0 auto;
+		img {
+			object-fit: contain;
+		}
+	}
+}

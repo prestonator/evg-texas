@@ -1,0 +1,191 @@
+@media screen and (width > 1100px) {
+	.colMobile {
+		display: none;
+	}
+}
+
+@media screen and (width <= 1100px) {
+	main .sectionTwo {
+		flex-direction: column;
+		gap: 2rem;
+		.colOne {
+			order: 3;
+			.rowOne {
+				display: none;
+			}
+		}
+		.colMobile {
+			display: flex;
+			order: 1;
+			justify-content: center;
+			text-align: center;
+		}
+		.colTwo {
+			max-width: 90%;
+			order: 2;
+		}
+	}
+	main .sectionThree {
+		.colTwo {
+			max-width: 45%;
+		}
+	}
+	main .sectionFour {
+		width: 80vw;
+		height: 20rem;
+	}
+}
+
+@media screen and (width <= 600px) {
+	main .sectionThree {
+		flex-direction: column;
+		gap: 1rem;
+		.textContainer {
+			text-align: center;
+		}
+		.textBgOverlay {
+			display: none;
+		}
+		.colTwo {
+			text-align: center;
+			.rowTwo hr {
+				margin: 1rem auto;
+			}
+			.rowThree p {
+				margin: auto;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.sectionOne {
+	position: relative;
+	max-width: 70%;
+	margin: auto;
+	.col {
+		font-size: rfs(3rem);
+	}
+	.rowOne {
+		padding-top: 3rem;
+		.col {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			span {
+				font-weight: bold;
+				margin-left: 1rem;
+			}
+		}
+	}
+	.rowTwo {
+		padding-bottom: 3rem;
+		.col span {
+			font-weight: bold;
+			margin-right: 1rem;
+		}
+	}
+	.rowFour {
+		position: absolute;
+		top: 10%;
+		right: 5%;
+		.sideBar {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			background-color: #514d42;
+			color: white;
+			padding: 1rem;
+			gap: 1rem;
+			font-size: rfs(1.5rem);
+		}
+	}
+	.rowFive .col {
+		font-size: rfs(1.5rem);
+		max-width: 70%;
+		margin: auto;
+		margin-top: rfs(2.5rem);
+	}
+}
+
+.sectionTwo {
+	display: flex;
+	align-items: center;
+	max-width: 80%;
+	margin: auto;
+	h3 {
+		font-size: rfs(3rem);
+		font-weight: bold;
+		margin-bottom: 2rem;
+	}
+	.rowTwo p {
+		font-size: rfs(1.25rem);
+	}
+	.colTwo {
+		max-width: 60%;
+		.swiperText {
+			font-size: rfs(2rem);
+			padding: rfs(5rem);
+		}
+	}
+}
+
+.sectionThree {
+	display: flex;
+	flex-direction: row;
+	background-color: #514d42;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	padding: rfs(10rem);
+	margin-top: 5rem;
+	.colOne {
+		.textContainer h3 {
+			color: white;
+			font-size: rfs(5rem);
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			line-height: 1em;
+		}
+		.textBgOverlay {
+			position: absolute;
+			text-transform: uppercase;
+			-webkit-text-stroke: 1px white;
+			color: transparent;
+			font-size: rfs(10rem);
+			transform: translateY(-50%);
+			top: 50%;
+			left: 2.5%;
+		}
+	}
+	.colTwo {
+		font-size: rfs(1.5rem);
+		max-width: 30%;
+		color: white;
+		.rowOne {
+			line-height: 2em;
+			color: #efefef;
+		}
+		.rowTwo hr {
+			width: 75%;
+			margin-right: 5%;
+		}
+		.rowThree p {
+			text-align: right;
+			margin-right: 5%;
+		}
+	}
+}
+
+.sectionFour {
+	position: relative;
+	width: rfs(80rem);
+	height: rfs(40rem);
+	margin: auto;
+	border-width: rfs(3rem);
+	border-color: rgb(51 48 41 / 90%);
+	border-style: solid;
+	transform: translateY(-2rem);
+}
+
+
