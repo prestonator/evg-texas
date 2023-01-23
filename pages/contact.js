@@ -8,7 +8,7 @@ const Contact = () => {
 		<>
 			<section className={styles.sectionOne}>
 				<iframe
-					src="https://snazzymaps.com/embed/456441"
+					src="https://snazzymaps.com/embed/456489"
 					style={{ border: "none" }}
 					className={styles.map}
 				/>
