@@ -51,6 +51,7 @@
     background-color: #333333;
     padding: rfs(5rem) rfs(2.5rem);
     gap: rfs(2rem);
+    flex-wrap: wrap;
     .col {
         position: relative;
         width: 100%;
