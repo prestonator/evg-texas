@@ -1,3 +1,9 @@
+@media screen and (width <= 1100px) {
+    .sectionFour {
+        flex-wrap: wrap;
+    }
+}
+
 .sectionOne {
     position: relative;
     width: 100%;
@@ -51,7 +57,6 @@
     background-color: #333333;
     padding: rfs(5rem) rfs(2.5rem);
     gap: rfs(2rem);
-    flex-wrap: wrap;
     .col {
         position: relative;
         width: 100%;
