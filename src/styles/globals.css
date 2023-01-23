@@ -11,3 +11,7 @@ body.bodyClass,
     margin: 0;
     padding: 0;
 }
+
+main .swiper .swiper-pagination {
+    bottom: -10px;
+}
